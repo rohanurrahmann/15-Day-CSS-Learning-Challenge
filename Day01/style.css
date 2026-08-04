@@ -1,0 +1,83 @@
+/*
+  h1 = selector
+  color = property
+  black = value
+  color: black;
+  ; = divider
+*/
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #222;
+  font-size: 24px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+p {
+  color: rgb(117, 117, 117);
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  max-width: 500px;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  background-color: aquamarine;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+div:hover {
+  transform: translateY(-4px);
+}
+
+div p {
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: end;
+  font-size: 20px;
+}
+
+.one_cont {
+  font-size: 21px;
+  text-align: center;
+  font-family: monospace;
+  color: azure;
+  font-weight: 700;
+}
+
+.cont_two {
+  background-color: bisque;
+  padding: 30px;
+}
+
+.class_p {
+  font-size: 24px;
+  text-align: left;
+}
+
+#css_id {
+  width: 320px;
+  height: 400px;
+  background-color: brown;
+}
+
+.class_two {
+  color: black;
+}
