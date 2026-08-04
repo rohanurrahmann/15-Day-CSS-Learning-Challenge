@@ -1,4 +1,4 @@
-# 🎨 15-Day CSS Learning Challenge
+#15-Day CSS Learning Challenge
 
 Learning and practicing a new CSS topic every day — this repo tracks that journey. Each day's work is kept in its own folder (`DayXX`) so progress can be seen from start to finish.
 
@@ -42,7 +42,7 @@ Each `DayXX` folder contains its own `index.html` and `style.css`, plus a short 
 ## 🚀 Live Demo
 
 Once GitHub Pages is enabled,
-`https://<username>.github.io/<repo-name>/DayXX/`
+`https://github.com/rohanurrahmann/15-Day-CSS-Learning-Challenge`
 
 ## 🛠️ Tools
 
