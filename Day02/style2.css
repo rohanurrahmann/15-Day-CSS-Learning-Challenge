@@ -1,0 +1,32 @@
+/*
+  CSS Background & Border properties
+*/
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+div {
+  background-image: url(bg.jpg);
+  background-size: 280px 280px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: aquamarine;
+
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+
+  /* border shorthand: width | style | color */
+  border: 1px solid blue;
+  border-radius: 10px;
+  border-left: 5px solid blue;
+
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}

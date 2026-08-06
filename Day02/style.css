@@ -1,0 +1,101 @@
+/*
+  Universal Selector = *
+  Selects every element on the page
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section div {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+section div h2 {
+  text-align: center;
+}
+
+.class_one {
+  color: rgb(189, 9, 9);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+#id_one {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.class_three {
+  color: rgb(33, 101, 161);
+}
+
+/*
+  CSS Grouping:
+  Multiple selectors separated by a comma (,) share the same rules.
+  This avoids repeating the same styles for each selector.
+*/
+#id_one,
+#id_two,
+.class_four {
+  background-color: rgb(44, 240, 4);
+  padding: 20px;
+  height: 280px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.comment_demo {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/*
+  CSS Colors can be written in a few formats:
+  - Hex        (#018d76)
+  - RGB        rgb(0, 255, 0)
+  - RGBA       rgba(255, 255, 0, 0.9) -> adds transparency
+  When the same property is declared more than once,
+  the LAST value wins - that's how we tested each format below.
+*/
+.color {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #018d76;
+}
+
+.color2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 0, 0.9);
+}
