@@ -1,0 +1,56 @@
+h1{
+  color: blue;
+  background: #ffff23;
+  text-align: center;
+  /*text-align: right;*/
+}
+.two{
+  text-align: center;
+  text-align-last: center;
+}
+.one{
+  color: #ffff23;
+  background: #585803;
+  padding: 20px;
+  margin-top: 20px;
+  /*CSS Direction*/
+  /*direction: rtl;
+  unicode-bidi: bidi-override;*/
+}
+.baseline{
+  vertical-align: baseline;
+}
+.text-top{
+  vertical-align:text-top;
+}
+.text-bottom{
+  vertical-align: text-bottom;
+}
+.sub{
+  vertical-align: sub;
+}
+.sup{
+  vertical-align: super;
+}
+/*CSS Text Decoration*/
+.text-decoration{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: aquamarine;
+  padding: 20px;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  text-decoration: line-through;
+  text-decoration: underline overline;
+}
+.text{
+  text-indent: 40px;
+  letter-spacing: 4px;
+  line-height: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 30px;
+  text-shadow: 5ch 0px 10px rgb(34, 27, 27);
+
+}
