@@ -1,0 +1,18 @@
+.parent{
+  background: #ffed85;
+  color: blueviolet;
+  width: 900px;
+  /*scrollbar is bad practice in css width*/
+  padding: 30px;
+  width: 90%; /*this is called flued width*/
+  margin: 20px auto;
+  text-align: center;
+  /*max-width: 1140px;*/
+  min-width: 600px;
+  height: 400px;
+  /*max-height: 350px;*/
+  border-radius: 20px;
+  border-color: aquamarine;
+  border-width: 4px;
+  border-style: solid;
+}
